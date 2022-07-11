@@ -3,11 +3,17 @@
 
 ## 目录
 [1.视差滚动](https://chen249045216.github.io/exercise/1.视差滚动)
+
 [2.全屏视频背景](https://chen249045216.github.io/exercise/2.全屏视频背景)
+
 [3.css3滚动转换效果](https://chen249045216.github.io/exercise/3.css3滚动转换效果)
+
 [04.全屏覆盖响应式导航菜单](https://chen249045216.github.io/exercise/04.全屏覆盖响应式导航菜单)
+
 [05.box_shadow加载动画效果](https://chen249045216.github.io/exercise/05.box_shadow加载动画效果)
+
 [06.css反向悬停效果](https://chen249045216.github.io/exercise/06.css反向悬停效果)
+
 [07.垂直和水平对齐文本中心](https://chen249045216.github.io/exercise/07.垂直和水平对齐文本中心)
 [08.css悬停效果之字形D](https://chen249045216.github.io/exercise/08.css悬停效果之字形D)
 [09.创建css图标悬停效果](https://chen249045216.github.io/exercise/09.创建css图标悬停效果)
