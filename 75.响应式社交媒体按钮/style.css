@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+.container{
+    margin: 100px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.container ul{
+    margin: 0;
+    padding: 0;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: calc(100%/8);
+    box-sizing: border-box;
+}
+.container ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container ul li a .iconfont{
+    font-size: 40px !important;
+    transition: .5s;
+    display: block;/*iconfont 必须这样设置，transfrom才能生效*/
+}
+.container ul li a:hover .iconfont{
+   transform: rotateY(360deg); 
+}
+.container ul li:nth-child(1) a
+{
+    background: #1877F2;
+}
+.container ul li:nth-child(2) a
+{
+    background: #CD201F;
+}
+.container ul li:nth-child(3)  a
+{
+    background: #FF5700;
+}
+.container ul li:nth-child(4) a
+{
+    background: #FFFC00;
+}
+.container ul li:nth-child(5) a
+{
+    background: #E4405F;
+}
+.container ul li:nth-child(6) a
+{
+    background: #0061FF;
+}
+.container ul li:nth-child(7) a
+{
+    background: #00AFF0;
+}
+.container ul li:nth-child(8) a
+{
+    background: #00C300;
+}
+@media (max-width:992px) {
+   .container h1{
+        font-size: 30px;
+   } 
+   .container ul li{
+    width: calc(100%/4);
+   }
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .container{
+        margin: 20px auto;
+    }
+    .container ul li{
+     width: calc(100%/2);
+    }
+ }
+ @media (max-width:360px) {
+    .container ul li{
+     width: calc(100%/1);
+    }
+ }
